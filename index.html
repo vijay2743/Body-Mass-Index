@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Healthy Life</title>
+        <link rel="stylesheet" href="assets/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron">
+                <h1>Why am I fat?</h1>
+                <p>Being fat can just be a feeling, let's check if you are obese</p>
+            </div>
+            <nav class>
+                <ul>
+                    <li><a href="#gendut">Am I fat?</a> </li>
+                    <li><a href="#sehat"> Healthy living</a></li>
+                    <img src="assets/ORF8060.png" alt="icon" id="icon">
+                </ul>
+            </nav>
+        </header>
+        <main>
+            
+            <aside>
+                <article class="profil card">
+                     <header>
+                         <h2>About Me</h2>
+                         <img id="foto" src="assets/7sky_200521_0078.png" alt="foto saya">
+                         <h3>Ima</h3>
+                     </header>
+                     <section>
+                         <h4>Siti Muslimah K.H.N.</h4>
+                         <h4>Student</h4>
+                         <h4>ima54a@gmail.com</h4>
+                     </section>
+                </article>
+            </aside>
+            <div class="count card" id="gendut">
+                <h2>Apakah saya gendut?</h2>
+                <p>Aktivitas di rumah saja membuat banyak orang kurang gerak. Yuk cek apakah berat badanmu masih ideal. <em>(khusus umur 18+)</em></p>
+                <div class="gender box">
+                    <label for="gender">Jenis kelamin</label> <br>
+                    <select name="gender" id="jenis-kelamin">
+                        <option value="default">Pilih</option>
+                        <option value="co">Laki-laki</option>
+                        <option value="ce">Perempuan</option>
+                      </select>
+                </div>
+                <div class="box">
+                    <label for="BB">Berat badan</label> <br>
+                    <input id="BB" type="number" placeholder="kg" min="0">
+                    
+                </div>
+                <div class="box">
+                    <label for="TB">Tinggi badan</label> <br>
+                    <input id="TB" type="number" placeholder="cm" min="0">
+                    
+                </div>
+               <input class="button" type="button" value="Cek">
+               <p id="result"></p>
+            </div>
+            <div class="content card" id = "sehat">
+                <h2>Hidup Sehat</h2>
+                <p>Gendut ataupun tidak, tetap jaga kesehatan kondisi tubuhmu dengan lakukan hal-hal berikut :</p>
+                <article id = "Makan">
+                    <h3>Makan Sehat</h3>
+                    <img src="https://media.giphy.com/media/cIawEUiHg2GZ8ANe3h/giphy.gif" width="300px" alt="food">
+                    <p>Meskipun terlihat gendutan, bukan berarti kamu harus mengurangi makan.
+                        Asupan gizi yang cukup diperlukan oleh tubuh untuk tumbuh, berkembang, dan beraktifitas secara optimal. 
+                    </p>
+                    <p>
+                        Keseimbangan gizi dari asupan makanan merupakan hal yang diperlukan.
+                        Selain itu, perhatikan juga pengolahan makanannya, jangan sampai merusak zat gizi di dalamnya.
+                        Pastikan kamu tetap mendapatkan asupan gizi yang cukup, ya.
+                    </p>
+                </article>
+                <article id = "Olahraga">
+                    <h3>Olahraga teratur</h3>
+                    <img src="https://media.giphy.com/media/3b8HhOe2LhftPxEdPq/giphy.gif" width="300px" alt="lari">
+                    <p>Olahraga yang benar dalam waktu yang tepat dapat membuat peredaran darah lancar,serta menguatkan otot dan tulang.
+                        Lakukan olahraga minimal 150 menit tiap pekan.
+                        Pastikan untuk tidak berolahraga saat jam tubuh beristirahat, seperti pukul 11 atau 12 malam.
+                        Interval latihan yang tepat juga diperlukan agar tubuh memiliki waktu untuk memulihkan kelelahan.
+                    </p>
+                </article>
+                <article id = "stres">
+                    <h3>Kelola stres</h3>
+                    <img src="https://thumbs.gfycat.com/WiltedUnsungIndianpangolin-max-1mb.gif" height="200px" alt="stres">
+                    <p>Psikologis dapat memengaruhi kesehatanmu, loh. Pastikan kamu kelola stres dengan baik, ya. 
+                        Caranya bisa dengan rekreasi, melakukan hobi, yoga, ataupun meditasi.
+                    </p>
+                </article>
+                <article id = "istirahat">
+                    <h3>Istirahat</h3>
+                    <img src="https://media.giphy.com/media/POYKkWmAxZGYECgPYx/giphy.gif" width="300px" alt="tidur">
+                    <p>Istirahat yang cukup penting untuk tubuhmu supaya dapat memulihkan kondisi secara alami.
+                        Pastikan untuk tidur malam yang cukup karena kualitas tidur malam lebih baik daripada tidur pagi (jangan begadang lalu tidur pagi, ya)
+                    </p>
+                </article>
+                <script src="assets/counting.js"></script>
+            </div>
+        </main>
+            <footer>
+                <p>  HqN &#169; 2020</p>
+            </footer>
+    </body>
+</html>
