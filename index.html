@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Healthy Life</title>
+        <link rel="stylesheet" href="assets/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <header>
+            <div class="head-1">
+                <h1>Why am I fat?</h1>
+                <p>Being fat can just be a feeling, let's check if you are obese</p>
+            </div>
+            <nav class>
+                <ul>
+                    <li><a href="#gendut">Am I fat?</a> </li>
+                    <li><a href="#sehat"> Healthy living</a></li>
+                    <img src="assets/ORF8060.png" alt="icon" id="icon">
+                </ul>
+            </nav>
+        </header>
+        <main>
+            
+            <aside>
+                <article class="profil card">
+                     <header>
+                         <h2>About Me</h2>
+                         <img id="foto" src="assets/7sky_200521_0078.png" alt="foto saya">
+                         <h3> I am</h3>
+                     </header>
+                     <section>
+                         <h4>Vijay Kanth</h4>
+                         <h4>Student</h4>
+                         <h4>vijaykanth@gmail.com</h4>
+                     </section>
+                </article>
+            </aside>
+            <div class="count card" id="gendut">
+                <h2>Am I fat?</h2>
+                <p>
+                    Activities at home alone make many people less mobile. Come on, check whether your weight is still ideal. <em>(specifically ages 18+)</em></p>
+                <div class="gender box">
+                    <label for="gender">Gender</label> <br>
+                    <select name="gender" id="jenis-kelamin">
+                        <option value="default">Choose</option>
+                        <option value="co">Male</option>
+                        <option value="ce">Female</option>
+                      </select>
+                </div>
+                <div class="box">
+                    <label for="BB">Weight</label> <br>
+                    <input id="BB" type="number" placeholder="kg" min="0">
+                    
+                </div>
+                <div class="box">
+                    <label for="TB">Height</label> <br>
+                    <input id="TB" type="number" placeholder="cm" min="0">
+                    
+                </div>
+               <input class="button" type="button" value="Check">
+               <p id="result"></p>
+            </div>
+            <div class="content card" id = "sehat">
+                <h2>Healthy living</h2>
+                <p>Fat or not, keep your body healthy by doing the following things:</p>
+                <article id = "Makan">
+                    <h3>Healthy Eating</h3>
+                    <img src="https://media.giphy.com/media/cIawEUiHg2GZ8ANe3h/giphy.gif" width="300px" alt="food">
+                    <p>Even though you look fat, it doesn't mean you have to eat less.
+                        Adequate nutritional intake is needed by the body to grow, develop and carry out optimal activities. 
+                    </p>
+                    <p>
+                        Nutritional balance of food intake is necessary.
+                        Apart from that, also pay attention to food processing, don't damage the nutrients in it.
+                        Make sure you still get enough nutritional intake, okay?
+                    </p>
+                </article>
+                <article id = "Olahraga">
+                    <h3>Regular exercise</h3>
+                    <img src="https://media.giphy.com/media/3b8HhOe2LhftPxEdPq/giphy.gif" width="300px" alt="Running">
+                    <p>Correct exercise at the right time can improve blood circulation and strengthen muscles and bones.
+                        Do at least 150 minutes of exercise every week.
+                        Make sure not to exercise during your body's rest hours, such as 11 or 12 at night.
+                        Appropriate training intervals are also needed so that the body has time to recover from fatigue.
+                    </p>
+                </article>
+                <article id = "stress">
+                    <h3>Manage stress</h3>
+                    <img src="https://media1.tenor.com/m/UzwJPPNtU7gAAAAC/bitrix24-zen.gif" height="200px" alt="stres">
+                    <p>Psychology can affect your health, you know. Make sure you manage stress well, okay? 
+                        This can be done through recreation, hobbies, yoga or meditation.
+                    </p>
+                </article>
+                <article id = "istirahat">
+                    <h3>Rest</h3>
+                    <img src="https://media.giphy.com/media/POYKkWmAxZGYECgPYx/giphy.gif" width="300px" alt="tidur">
+                    <p>Getting enough rest is important for your body so that it can recover naturally.
+                        Make sure you get enough sleep at night because the quality of night sleep is better than morning sleep (don't stay up late and then go to bed early, OK)
+                    </p>
+                </article>
+                <script src="assets/counting.js"></script>
+            </div>
+        </main>
+            <footer>
+                <p>  Copyright &#169; 2020</p>
+            </footer>
+    </body>
+</html>
